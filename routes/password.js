@@ -20,8 +20,8 @@ exports.recover = async (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: process.env.FROM_EMAIL,
-      pass: process.env.FROM_PASS,
+      user: "themindcoder",//process.env.FROM_EMAIL,
+      pass: "freakymind@30" //process.env.FROM_PASS,
     },
   });
   const model = Model(req.body.type);
