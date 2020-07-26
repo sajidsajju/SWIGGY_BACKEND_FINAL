@@ -54,7 +54,7 @@ exports.recover = async (req, res) => {
           //   "/" +
           //   user.resetPasswordToken;
           let link =
-            "http://localhost:3000/reset/" +
+            "https://swiggyfoodapp.herokuapp.com/reset/" +
             user.type +
             "/" +
             user.resetPasswordToken;
