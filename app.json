@@ -1,0 +1,6 @@
+{
+    "name": "SWIGGY",
+    "repository": "https://github.com/sajidsajju/SWIGGY_BACKEND_FINAL.git",
+    "keywords": ["node", "express", "static"],
+    "image": "heroku/nodejs"
+}
