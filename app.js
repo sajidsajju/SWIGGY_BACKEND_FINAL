@@ -24,7 +24,7 @@ app.use(express.json());
 
 app.use(passport.initialize());
 app.use('/uploads', express.static('uploads'));
-app.use("/api", routes);
+app.use("/", routes);
 
 // app.use(passport.session());
 
